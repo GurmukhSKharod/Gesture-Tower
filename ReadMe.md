@@ -144,10 +144,13 @@ cd /mnt/remote/mediapipe
 
 Component	            Test Instructions
 
-Web Client	            Open localhost:3000, check live updates
-Web Server	            Console logs connection events
-BeagleY-AI Hardware	    Start/Stop gestures, verify LCD updates
-Multiplayer Sync	    Use two BeagleY-AI boards to confirm live synchronized gameplay
+Web Client	            - Open localhost:3000, check live updates
+
+Web Server	            - Console logs connection events
+
+BeagleY-AI Hardware	    - Start/Stop gestures, verify LCD updates
+
+Multiplayer Sync	    - Use two BeagleY-AI boards to confirm live synchronized gameplay
 
 ---
 
