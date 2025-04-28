@@ -14,6 +14,14 @@ This project implements a gesture-based multiplayer gaming platform using Beagle
 
 ---
 
+## The Web Client is Hosted as Shown Below: 
+
+Web Client: https://433-project.vercel.app/ 
+
+Note that in order to fully run the app, 2 BeagleY-AI boards need to be connected to the same room and be in the "ready" state.
+
+---
+
 ## Tech Stack
 
 
@@ -70,9 +78,10 @@ Make sure you have Node.js v18+ and npm installed on your development machine.
 
 ## How to Clone
 
-bash
+```bash
 git clone https://github.com/GurmukhSKharod/Gesture-Tower.git
 cd gesture-tower
+```
 
 ---
 
