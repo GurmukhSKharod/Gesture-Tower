@@ -12,13 +12,17 @@ This project implements a gesture-based multiplayer gaming platform using Beagle
 - LCD displays, audio feedback, and live animations provide real-time player status.
 - ReactJS + Framer Motion web client shows synchronized game state to users.
 
+- For more info please refer to the following YouTube Overview: https://www.youtube.com/watch?v=HzwpM-fz1Ek 
+
 ---
 
 ## The Web Client is Hosted as Shown Below: 
 
 Web Client: https://433-project.vercel.app/ 
 
-Note that in order to fully run the app, 2 BeagleY-AI boards need to be connected to the same room and be in the "ready" state.
+Note that in order to fully run an active game, 2 BeagleY-AI boards need to be connected to the same room and be in the "ready" state.
+
+However the gesture-recogniton can still be observed using a single BYAI.
 
 ---
 
