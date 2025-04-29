@@ -12,7 +12,7 @@ This project implements a gesture-based multiplayer gaming platform using Beagle
 - LCD displays, audio feedback, and live animations provide real-time player status.
 - ReactJS + Framer Motion web client shows synchronized game state to users.
 
-- For more info please refer to the following YouTube Overview: https://www.youtube.com/watch?v=HzwpM-fz1Ek 
+- For more info please refer to the following YouTube Overview: https://www.youtube.com/watch?v=GpHjvrf50cc
 
 ---
 
