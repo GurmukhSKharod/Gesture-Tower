@@ -18,7 +18,7 @@ This project implements a gesture-based multiplayer gaming platform using Beagle
 
 ## The Web Client is Hosted as Shown Below: 
 
-Web Client: https://433-project.vercel.app/ 
+Web Client: https://gesture-tower.vercel.app/ 
 
 Note that in order to fully run an active game, 2 BeagleY-AI boards need to be connected to the same room and be in the "ready" state.
 
