@@ -252,6 +252,28 @@ export const TitleScreen: React.FC<TitleScreenProps> = () => {
               View Room
             </button>
           </div>
+          {/* Debug button spans both columns on >= sm */}
+          <Link
+            href="/debug"
+            className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-center"
+          >
+            No BeagleY-AI Board? <br/><br/>Try out{" "}
+            <span className="demo-mode px-1 rounded-md font-bold">Demo Mode</span>{" "}
+            Here!
+          </Link>
+
+          {/* Scoped CSS placed in the same component file (no global changes, no hooks) */}
+          <style jsx>{`
+            @keyframes demoColor {
+              0%, 100% { color: #ffffff; }
+              33%      { color: #22c55e; } /* green-500 */
+              66%      { color: #eab308; } /* yellow-500 */
+            }
+            .demo-mode {
+              color: #ffffff; /* initial color for SSR */
+              animation: demoColor 2s infinite ease-in-out;
+            }
+          `}</style>
         </>
 
         {/* Create room form modal */}
