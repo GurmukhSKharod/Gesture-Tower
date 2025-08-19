@@ -1,7 +1,7 @@
 [build]
   base    = "web-version"
   command = "npm run build"
-  publish = "web-version/.netlify/output/public"
+  publish = ".netlify/output/public"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
